@@ -1,0 +1,29 @@
+[1 of 1] Compiling Main             ( /private/var/folders/vq/r9056tbj41n0lh_2l60b_fcm0000gn/T/stack8834/http-streams-0.8.3.3/Setup.hs, /private/var/folders/vq/r9056tbj41n0lh_2l60b_fcm0000gn/T/stack8834/http-streams-0.8.3.3/.stack-work/dist/x86_64-osx/Cabal-1.22.5.0/setup/Main.o )
+Linking /private/var/folders/vq/r9056tbj41n0lh_2l60b_fcm0000gn/T/stack8834/http-streams-0.8.3.3/.stack-work/dist/x86_64-osx/Cabal-1.22.5.0/setup/setup ...
+Configuring http-streams-0.8.3.3...
+Building http-streams-0.8.3.3...
+Preprocessing library http-streams-0.8.3.3...
+[1 of 5] Compiling Network.Http.Utilities ( lib/Network/Http/Utilities.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Http/Utilities.o )
+[2 of 5] Compiling Network.Http.ResponseParser ( lib/Network/Http/ResponseParser.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Http/ResponseParser.o )
+
+lib/Network/Http/ResponseParser.hs:33:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[3 of 5] Compiling Network.Http.Connection ( lib/Network/Http/Connection.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Http/Connection.o )
+
+lib/Network/Http/Connection.hs:46:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[4 of 5] Compiling Network.Http.Inconvenience ( lib/Network/Http/Inconvenience.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Http/Inconvenience.o )
+
+lib/Network/Http/Inconvenience.hs:55:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[5 of 5] Compiling Network.Http.Client ( lib/Network/Http/Client.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Http/Client.o )
+In-place registering http-streams-0.8.3.3...
+Installing library in
+/Users/Povilas/.stack/snapshots/x86_64-osx/lts-6.25/7.10.3/lib/x86_64-osx-ghc-7.10.3/http-streams-0.8.3.3-GVt5bnOAdHO08POeyr0qJW
+Registering http-streams-0.8.3.3...

@@ -1,0 +1,25 @@
+Configuring http-common-0.8.2.0...
+Building http-common-0.8.2.0...
+Preprocessing library http-common-0.8.2.0...
+[1 of 3] Compiling Network.Http.Internal ( lib/Network/Http/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Http/Internal.o )
+
+lib/Network/Http/Internal.hs:70:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[2 of 3] Compiling Network.Http.RequestBuilder ( lib/Network/Http/RequestBuilder.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Http/RequestBuilder.o )
+
+lib/Network/Http/RequestBuilder.hs:38:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+lib/Network/Http/RequestBuilder.hs:46:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[3 of 3] Compiling Network.Http.Types ( lib/Network/Http/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Network/Http/Types.o )
+In-place registering http-common-0.8.2.0...
+Installing library in
+/Users/Povilas/.stack/snapshots/x86_64-osx/lts-6.25/7.10.3/lib/x86_64-osx-ghc-7.10.3/http-common-0.8.2.0-7wG9wszWJNU9IlGkhD86RF
+Registering http-common-0.8.2.0...
